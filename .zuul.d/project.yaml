@@ -3,10 +3,12 @@
       jobs:
         - noop
         - matt-check
+        - jhewitt-sandbox
     gate:
       jobs:
         - noop
         - matt-check
+        - jhewitt-sandbox
     post:
       jobs:
         - sandbox-post
